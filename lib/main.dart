@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//TODO: 记录history ,并且展示一个动画列表，这个列表中的收藏词汇可以点击取消
 class MyAppState extends ChangeNotifier {
   var current = WordPair.random();
   void getNext() {
@@ -50,6 +51,7 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
+//TODO:给bigcard添加一个动画效果
 class _MyHomePageState extends State<MyHomePage> {
   var selectedIndex = 0;
   @override
@@ -103,6 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
+//TODO: 修改收藏页面,添加可以移除收藏功能，并且优化布局
 class FavoritesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
