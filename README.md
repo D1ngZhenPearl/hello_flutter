@@ -1,8 +1,7 @@
+我的第一个Flutter应用程序！
+
 https://codelabs.developers.google.com/codelabs/flutter-codelab-first#0
 
-
-
-您的第一个Flutter应用程序
 
 ## 关于此 Codelab
 
